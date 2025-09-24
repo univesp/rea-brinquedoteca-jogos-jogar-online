@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+body {
+    background: url("../assets/bg.png") no-repeat;
+    background-size: 100%;
+}
+*/
+
+.secaoprincipal {
+    background: url(../assets/bg.png) no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.divtotal{
+    padding: 20px;
+    overflow: hidden;
+}
+
+.imagemtitulo {
+    margin: 0 auto;
+    display: block;
+    padding-top: 2%;
+    width: 35vw;
+}
+
+.divdosicones {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    padding: 20px;
+}
+
+.iconejogo {
+    width: 400px;
+    display: block;
+    margin: 0% auto;
+    transition: 0.5s;
+}
+
+.iconejogo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+a {
+    display: contents;
+}
+
+@media (orientation : portrait){
+
+}
+
+
+@media only screen and (max-width: 1314px){
+    .iconejogo {
+        width: 440px;
+    }
+
+    .divdosicones {
+        width: 85%;
+        margin-top: 5%;
+    }
+
+    .imagemtitulo{
+        width: 45vw;
+    }
+
+}
+@media only screen and (max-width: 1099px){
+    .iconejogo{
+        width: 400px;
+    }
+
+    .divdosicones{
+        /*width: 100%;*/
+        margin-top: 10%;
+    }
+
+    .imagemtitulo{
+        width: 50vw;
+    }
+}
+@media only screen and (max-width: 888px){
+    .divdosicones {
+     /*   width: 100%;*/
+        margin-top: 15%;
+    }
+
+    .iconejogo{
+        width: 360px;
+    }
+
+    .secaoprincipal{
+        background: none;
+    }
+
+    .imagemtitulo{
+        width: 65vw;
+    }
+}
+@media only screen and (max-width: 759px){
+    .iconejogo {
+        width: 350px;
+    }
+
+    .divdosicones{
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .iconejogo {
+        width: 310px;
+    }
+
+    .imagemtitulo{
+        width: 95%;
+    }
+}
+
+
+@media only screen and (max-width: 619px){
+    .iconejogo{
+        width: 80%;
+    }
+}
